@@ -26,5 +26,4 @@ readLine amount = do
     input <- getLine
     readLine (amount + (read input :: Double))
 
-main = do
-  readLine(0 :: Double)
+main = readLine(0 :: Double)
