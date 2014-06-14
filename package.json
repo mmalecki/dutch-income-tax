@@ -9,5 +9,9 @@
   "scripts": {
     "prepublish": "ghc -o dutch-income-tax main.hs"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmalecki/dutch-income-tax.git"
+  },
   "license": "MIT"
 }
